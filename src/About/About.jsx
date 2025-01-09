@@ -3,11 +3,10 @@ import './About.css';
 function About(){    
     return (
     <div className='about-container' style={{
-        position: 'fixed', 
         borderRight: '1px solid',
         borderImage: 'linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.01) 48%, transparent 100%) 1'
     }}>
-        <div className='about-content'>
+        <div className='about-content-container'>
             <h1 style={{
                 fontFamily: 'Questrial, sans-serif',
                 fontWeight: '400',

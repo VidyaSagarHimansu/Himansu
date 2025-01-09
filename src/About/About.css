@@ -1,9 +1,10 @@
 .about-container {
     width: 33.3vw;
+    position: fixed;
     display: inline-block;
 }
 
-.about-content {
+.about-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +14,8 @@
     padding-right: 3vw;
     animation: fadeIn 0.5s ease-in;
 }
+
+
 
 .tech-tag {
     background-color: rgba(0, 0, 0, 0.05);
@@ -46,5 +49,12 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        position: static;
+        width: 100%;
     }
 }

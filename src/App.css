@@ -1,3 +1,19 @@
+
+
+.content-container {
+  float: right;
+  width: 65.3%;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .content-container {
+    float: none;
+    width: 100%;
+    margin-left: 2vw;
+    clear: both;
+    display: block;
+  }
+}
 .spinner {
   width: 50px;
   height: 50px;
@@ -45,3 +61,4 @@
       transform: translateY(0);
   }
 }
+

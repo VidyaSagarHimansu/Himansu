@@ -11,7 +11,7 @@ function App() {
     <>
     <Suspense fallback={<div className='spinner-container'><div className='spinner'></div></div>}>
       <About />
-      <div style={{float: 'right', width: '65.3%', display: 'inline-block'}}>
+      <div className='content-container'>
         <Topics />
         <Footer />
       </div>
