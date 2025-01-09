@@ -5,7 +5,7 @@
   width: 65.3%;
   display: inline-block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .content-container {
     margin-top: 2vh;
     float: none;
@@ -15,6 +15,19 @@
     display: block;
   }
 }
+
+@media screen and (max-height: 1000px) {
+  .content-container {
+    margin-top: 2vh;
+    float: none;
+    width: 100%;
+    margin-left: 2vw;
+    clear: both;
+    display: block;
+  }
+}
+
+
 .spinner {
   width: 50px;
   height: 50px;

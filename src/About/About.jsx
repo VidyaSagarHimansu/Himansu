@@ -55,9 +55,8 @@ function About(){
                 </div>
 
                 <p>I'm passionate about system design, algorithmic problem-solving, and creating efficient solutions that drive business value. Currently exploring opportunities to contribute to innovative projects in the fintech space.</p>
-            </div>
-
-            <div id="socials" style={{
+                
+                <div id="socials" style={{
                 width: '100%',
                 paddingTop: '32px'
             }}>
@@ -97,6 +96,10 @@ function About(){
                     
                 </div>
             </div>
+            
+            </div>
+
+            
         </div>        
 
     </div>)
