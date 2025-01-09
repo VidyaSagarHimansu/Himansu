@@ -1,8 +1,8 @@
 import { useState, useEffect, Suspense } from 'react'
 import './App.css'
 import React from 'react';
-const Topics = React.lazy(() => import('./Detail/Topics'));
 
+const Topics = React.lazy(() => import('./Detail/Topics'));
 const About = React.lazy(() => import('./About/About'));
 const Footer = React.lazy(() => import('./Footer/Footer'));
 

@@ -21,7 +21,7 @@ function Topics() {
         
     ]
     return (
-        <div style={{}}>
+        <div className="fade-in" style={{}}>
             {cards.map((card, index) => (
                 <Docs key = {index} heading={card.heading} content={card.content} link={card.link}/>
             ))}
