@@ -5,7 +5,7 @@ function Cards(props){
     return (
         <div className='card fade-in'>
                 
-                <a href={link} target='_blank'>
+                <a href={link} target='_blank' style={{textDecoration: 'none'}}>
                     <section>
                         <h3 style={{fontFamily: 'Questrial , sans-serif', fontWeight: '290', fontSize: '24px', }}>{topic}</h3>
                         {typeof content === 'string' ? (
