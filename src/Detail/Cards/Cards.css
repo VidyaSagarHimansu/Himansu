@@ -6,10 +6,12 @@
   }
 
 .card section {
-    width: 100%;
+    width: 85%;
+    height: 85%;
     padding: 2.5vh 5%;
     margin: 1vh 0px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     color: var(--text-color);
     border: 1px solid rgb(0, 0, 0, 0.08);

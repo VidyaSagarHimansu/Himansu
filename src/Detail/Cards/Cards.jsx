@@ -1,9 +1,9 @@
 import './Cards.css'
 
 function Cards(props){
-    const {topic, content, style, link, symbol} = {...props}
+    const {topic, content, link, symbol} = {...props}
     return (
-        <div className='card fade-in' style={{display: 'inline-block', width: '43%', ...style}}>
+        <div className='card fade-in'>
                 
                 <a href={link} target='_blank'>
                     <section>
