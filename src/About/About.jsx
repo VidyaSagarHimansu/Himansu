@@ -40,7 +40,6 @@ function About(){
                 }}>
                     <span className="tech-tag">Java Spring Boot</span>
                     <span className="tech-tag">React</span>                                        
-                    <span className="tech-tag">C# .NET</span>
                     <span className="tech-tag">Apache Airflow</span>
                     <span className="tech-tag">RESTful APIs</span>
                     <span className="tech-tag">PostgreSQL</span>
