@@ -3,7 +3,7 @@ import Docs from './Docs/Docs';
 function Topics() {
     const cards = [
         {heading: "docs.", content: [
-            {topic: "📄 Resume", content: "A little about me.", link: "https://vidyasagarhimansu.github.io/Resources/Resume%202024.pdf", symbol: "far fa-file-pdf"},
+            {topic: "📄 Resume", content: "A little about me.", link: "https://vidyasagarhimansu.github.io", symbol: "far fa-file-pdf"},
             {topic: "📝 Cover Letter", content: "Letter of Interest.", symbol: "far fa-file-pdf"},
         ]},
         {heading: "professional experience.", content: [
